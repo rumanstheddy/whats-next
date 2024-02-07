@@ -19,17 +19,17 @@ Welcome to my "What's Next?" learning project! This space is dedicated to docume
 
 - [ ] Explored different ways of routing in Next.js
 - [x] Used the `Link` component for client-side navigation
-- [ ] Implemented navigation between pages
+- [x] Implemented navigation between pages
 
 ### Layouts and Components
 
-- [ ] Created reusable components
+- [x] Created reusable components
 - [ ] Implemented layout components
-- [ ] Understood the role of components in Next.js
+- [x] Understood the role of components in Next.js
 
 ### Data Fetching
 
-- [ ] Learned about static site generation (SSG) and server-side rendering (SSR)
+- [x] Learned about static site generation (SSG) and server-side rendering (SSR)
 - [ ] Fetched data during the build process using `getStaticProps`
 
 ### Dynamic Routes
