@@ -41,7 +41,7 @@ Welcome to my "What's Next?" learning project! This space is dedicated to docume
 ### API Routes
 
 - [ ] Created API routes to handle server-side logic
-- [ ] Learned how to make requests to API routes
+- [x] Learned how to make requests to API routes
 - [ ] Explored different use cases for API routes
 
 ### Styling in Next.js
