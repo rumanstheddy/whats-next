@@ -30,7 +30,8 @@ Welcome to my "What's Next?" learning project! This space is dedicated to docume
 ### Data Fetching
 
 - [x] Learned about static site generation (SSG) and server-side rendering (SSR)
-- [ ] Fetched data during the build process using `getStaticProps`
+- [x] Fetched data during the build process using `getStaticProps`
+- [x] Learned disabling and enabling caching
 
 ### Dynamic Routes
 
