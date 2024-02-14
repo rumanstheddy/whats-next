@@ -12,7 +12,7 @@ const UsersPage = async () => {
   const users: User[] = await response.json();
 
   return (
-    <div className="bg-sky-600">
+    <div className="bg-sky-600 font-rubik">
       <p>Users Page</p>
       Time Updated: {new Date().toLocaleTimeString()}
       <ProductCard />
