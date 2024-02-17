@@ -1,19 +1,32 @@
+"use client";
 import React from "react";
+import useSWR from "swr";
 
-interface Joke {
-  id: String;
-  joke: String;
-}
-
-const DadJokePage = async () => {
-  const res = await fetch("https://icanhazdadjoke.com/", {
+const DadJokePage = () => {
+  const options = {
     headers: {
       Accept: "application/json",
     },
-  });
-  const jokeObj: Joke = await res.json();
+  };
+  const fetcher = (url: RequestInfo) =>
+    fetch(url, options).then((res) => res.json());
+  const { data, isLoading, mutate } = useSWR(
+    "https://icanhazdadjoke.com/",
+    fetcher
+  );
 
-  return <div>{jokeObj.joke}</div>;
+  return (
+    <div>
+      <p className="block">{isLoading ? "..." : data.joke}</p>
+      <button
+        className="bg-black hover:bg-blue-900 text-white font-bold py-2 px-4 rounded"
+        type="button"
+        onClick={async () => await mutate()}
+      >
+        Change the Joke
+      </button>
+    </div>
+  );
 };
 
 export default DadJokePage;
