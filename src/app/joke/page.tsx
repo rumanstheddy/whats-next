@@ -16,10 +16,12 @@ const DadJokePage = () => {
   );
 
   return (
-    <div>
-      <p className="block">{isLoading ? "..." : data.joke}</p>
+    <div className="font-rubik min-h-screen min-w-screen flex flex-col justify-center items-center">
+      <p className="block text-3xl mb-5 text-center italic">
+        {isLoading ? "..." : data.joke}
+      </p>
       <button
-        className="bg-black hover:bg-blue-900 text-white font-bold py-2 px-4 rounded"
+        className="bg-black hover:bg-blue-900 text-white py-2 px-4 rounded w-fit mt-5"
         type="button"
         onClick={async () => await mutate()}
       >
