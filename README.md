@@ -17,7 +17,6 @@ Welcome to my "What's Next?" learning project! This space is dedicated to docume
 
 ### Routing in Next.js
 
-- [ ] Explored different ways of routing in Next.js
 - [x] Used the `Link` component for client-side navigation
 - [x] Implemented navigation between pages
 
@@ -41,15 +40,15 @@ Welcome to my "What's Next?" learning project! This space is dedicated to docume
 
 ### API Routes
 
-- [ ] Created API routes to handle server-side logic
+- [x] Created API routes to handle server-side logic
 - [x] Learned how to make requests to API routes
 - [ ] Explored different use cases for API routes
 
 ### Styling in Next.js
 
-- [ ] Chose a styling approach (CSS, SCSS, Styled Components, etc.)
-- [ ] Applied styles to components and pages
-- [ ] Learned about global styles and CSS modules
+- [x] Chose a styling approach (CSS, SCSS, Styled Components, etc.)
+- [x] Applied styles to components and pages
+- [x] Learned about global styles and CSS modules
 
 ### Handling Forms
 
