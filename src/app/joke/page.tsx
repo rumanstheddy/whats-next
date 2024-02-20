@@ -16,7 +16,7 @@ const DadJokePage = () => {
   );
 
   return (
-    <div className="font-rubik min-h-screen min-w-screen flex flex-col justify-center items-center">
+    <div className="font-rubik h-screen w-screen flex flex-col justify-center items-center">
       <p className="block text-3xl mb-5 text-center italic">
         {isLoading ? "..." : data.joke}
       </p>
