@@ -23,7 +23,7 @@ Welcome to my "What's Next?" learning project! This space is dedicated to docume
 ### Layouts and Components
 
 - [x] Created reusable components
-- [ ] Implemented layout components
+- [x] Implemented layout components
 - [x] Understood the role of components in Next.js
 
 ### Data Fetching
@@ -61,9 +61,3 @@ Welcome to my "What's Next?" learning project! This space is dedicated to docume
 - [ ] Chose a hosting platform (Vercel, Netlify, etc.)
 - [ ] Deployed my Next.js app to production
 - [ ] Configured environment variables for production
-
-## Future Learning Goals
-
-- [ ] Explore advanced Next.js features
-- [ ] Dive into state management in Next.js
-- [ ] Learn about testing in a Next.js application
