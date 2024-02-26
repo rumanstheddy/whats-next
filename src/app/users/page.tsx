@@ -12,12 +12,12 @@ const UsersPage = async () => {
   const users: User[] = await response.json();
 
   return (
-    <div className="bg-sky-600 font-rubik">
-      <p>Users Page</p>
-      Time Updated: {new Date().toLocaleTimeString()}
-      <ProductCard />
-      <br />
-      <ul>
+    <div className="font-rubik flex flex-col justify-center items-center w-screen h-screen text-center">
+      <p className="text-5xl pb-5 underline">Users Page</p>
+      <p className="text-3xl pb-5">
+        Time Updated: {new Date().toLocaleTimeString()}
+      </p>
+      <ul className="text-2xl">
         {users.map(({ id, name }) => (
           <li key={id}>
             {id}: {name}

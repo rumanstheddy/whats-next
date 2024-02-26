@@ -8,13 +8,13 @@ export default function Home() {
       </h1>
       <Link
         href={"/users"}
-        className="text-3xl italic font-rubik block hover:underline hover:text-blue-500"
+        className="text-3xl italic font-rubik block underline hover:underline hover:text-blue-500"
       >
         Users
       </Link>
       <Link
         href={"/joke"}
-        className="text-3xl italic font-rubik hover:underline hover:text-blue-500"
+        className="text-3xl italic font-rubik underline hover:underline hover:text-blue-500"
       >
         Wanna hear a joke?
       </Link>
