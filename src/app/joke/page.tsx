@@ -1,4 +1,5 @@
 "use client";
+import { useRouter } from "next/navigation";
 import React from "react";
 import useSWR from "swr";
 
@@ -8,8 +9,12 @@ const DadJokePage = () => {
       Accept: "application/json",
     },
   };
+
+  const router = useRouter();
+
   const fetcher = (url: RequestInfo) =>
     fetch(url, options).then((res) => res.json());
+
   const { data, isLoading, mutate } = useSWR(
     "https://icanhazdadjoke.com/",
     fetcher
@@ -26,6 +31,13 @@ const DadJokePage = () => {
         onClick={async () => await mutate()}
       >
         Change the Joke
+      </button>
+      <button
+        type="button"
+        className="text-2xl font-rubik underline hover:underline hover:text-blue-500 mt-5"
+        onClick={() => router.back()}
+      >
+        back
       </button>
     </div>
   );

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ProductCard from "../components/ProductCard";
 
 interface User {
@@ -24,6 +25,12 @@ const UsersPage = async () => {
           </li>
         ))}
       </ul>
+      <Link
+        href={"/"}
+        className="text-2xl font-rubik underline hover:underline hover:text-blue-500 mt-5"
+      >
+        back
+      </Link>
     </div>
   );
 };
