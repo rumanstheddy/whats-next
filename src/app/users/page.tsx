@@ -15,9 +15,10 @@ const UsersPage = async () => {
   return (
     <div className="font-rubik flex flex-col justify-center items-center w-screen h-screen text-center">
       <p className="text-5xl pb-5 underline">Users Page</p>
-      <p className="text-3xl pb-5">
-        Time Updated: {new Date().toLocaleTimeString()}
-      </p>
+      <div className="flex flex-row text-3xl pb-5 justify-between">
+        <p className="font-bold">Time Updated:</p>
+        <p className="italic">{new Date().toLocaleTimeString()}</p>
+      </div>
       <ul className="text-2xl">
         {users.map(({ id, name }) => (
           <li key={id}>
