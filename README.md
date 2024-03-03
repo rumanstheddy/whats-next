@@ -36,7 +36,7 @@ Welcome to my "What's Next?" learning project! This space is dedicated to docume
 
 - [x] Created dynamic routes in Next.js
 - [ ] Fetched data for dynamic routes
-- [ ] Used the `useRouter` hook for handling dynamic route parameters
+- [x] Used the `useRouter` hook for handling dynamic route parameters
 
 ### API Routes
 
