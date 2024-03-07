@@ -60,4 +60,3 @@ Welcome to my "What's Next?" learning project! This space is dedicated to docume
 
 - [ ] Chose a hosting platform (Vercel, Netlify, etc.)
 - [ ] Deployed my Next.js app to production
-- [ ] Configured environment variables for production
