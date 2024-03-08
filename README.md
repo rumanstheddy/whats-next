@@ -54,7 +54,6 @@ Welcome to my "What's Next?" learning project! This space is dedicated to docume
 
 - [ ] Implemented forms in my Next.js app
 - [ ] Handled form submissions and validations
-- [ ] Understood the role of form handling in a Next.js application
 
 ### Deploying Your Next.js App
 
